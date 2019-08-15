@@ -58,7 +58,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.TourViewHolder> {
         holder.name.setText(item.getName());
         holder.address.setText(item.getAddress());
         holder.imageView.setImageBitmap(item.getBitmap());
-    }
+}
 
     @Override
     public int getItemCount() {

@@ -42,7 +42,7 @@ public class XMLPullParserHandler {
                 switch (eventType) {
                     case XmlPullParser.START_TAG:
                         String startTag = xpp.getName();
-                        Log.d("minwoo",startTag);
+
 
                         if(startTag.equals("item")){
                         tour = new Tour();

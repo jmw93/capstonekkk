@@ -16,7 +16,7 @@ public class hotel_fragment extends Fragment {
 
 
     public hotel_fragment() {
-        // Required empty public constructor
+
     }
 
 
